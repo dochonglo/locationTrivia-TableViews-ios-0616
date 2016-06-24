@@ -24,6 +24,7 @@
     self.tableView.accessibilityLabel = @"Locations Table";
     self.tableView.accessibilityIdentifier = @"Locations Table";
     
+    // Assign the NSArray of FISLocation objects to the public locations array we created:
     //self.locations = [self generateTestData];
 
     // Uncomment the following line to preserve selection between presentations.
@@ -80,6 +81,7 @@
 //    }
 }
 /*
+// Helper Method -> If we were to generate our out data that returns an array of FISLocations objects.
 -(NSArray *)generateTestData {
     
     // Set up some test data
