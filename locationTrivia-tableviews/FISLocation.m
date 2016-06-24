@@ -58,7 +58,8 @@
     }
     return triviumWithMostLikes;
     
-    /** solution with NSSortDescriptor
+    /* 
+     Solution with NSSortDescriptor:
      
      NSSortDescriptor *sortByLikesDesc = [NSSortDescriptor sortDescriptorWithKey:@"likes"
      ascending:NO];
